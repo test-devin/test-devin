@@ -1,7 +1,2 @@
-export function sum(a, b) {
-    return a + b;
-}
-
-export function minus(a, b) {
-    return a - b;
-}
+export { sum, minus } from './math.js';
+export { fetchMarkdown } from './fetchMarkdown.js';
