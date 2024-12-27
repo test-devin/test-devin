@@ -1,4 +1,4 @@
-const { sum, minus } = require('../index.js');
+import { sum, minus } from '../index.js';
 
 describe('Math functions', () => {
   describe('sum function', () => {
